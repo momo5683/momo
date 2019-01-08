@@ -1,0 +1,12 @@
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.csprojAssemblyReference.cache
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.Form1.resources
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.Properties.Resources.resources
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.csproj.GenerateResource.cache
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.csproj.CoreCompileInputs.cache
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\bin\Debug\lehongson_1706020071_cuoiky.exe.config
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\bin\Debug\lehongson_1706020071_cuoiky.exe
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\bin\Debug\lehongson_1706020071_cuoiky.pdb
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\bin\Debug\Newtonsoft.Json.dll
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.csproj.CopyComplete
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.exe
+E:\hdt\lehongson_1706020071_cuoiky\lehongson_1706020071_cuoiky\obj\Debug\lehongson_1706020071_cuoiky.pdb
