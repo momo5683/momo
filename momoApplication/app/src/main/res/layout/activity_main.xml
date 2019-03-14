@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="49dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="84dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            android:id="@+id/Main_tv"
+            android:layout_width="281dp"
+            android:layout_height="match_parent"
+            android:text="@string/danhsach"
+            android:textSize="60px"
+            android:textColor="@color/colorBlue"/>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Main_lv"
+        >
+
+    </ListView>
+</LinearLayout>
