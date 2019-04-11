@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ChiTietActivity"
+    tools:context="com.example.ghichu.ChiTietActivity"
     android:padding="16dp"
     android:background="@color/colorAqua">
 
@@ -87,7 +87,7 @@
             android:text="Ngày:" />
 
         <TextView
-            android:id="@+id/Giatien"
+            android:id="@+id/Ngay"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>

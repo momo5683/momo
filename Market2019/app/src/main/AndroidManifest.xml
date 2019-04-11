@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".themitemActivity" />
-        <activity android:name=".ChiTietActivity" />
-        <activity android:name=".GhichuActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".LoadActivity">
+        <activity android:name="com.example.ghichu.themitemActivity" />
+        <activity android:name="com.example.ghichu.ChiTietActivity" />
+        <activity android:name="com.example.ghichu.GhichuActivity" />
+        <activity android:name="com.example.ghichu.MainActivity" />
+        <activity android:name="com.example.ghichu.LoadActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

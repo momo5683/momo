@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
-import com.example.model.ShoppingCard;
+import com.example.model.Card;
 import com.example.model.UserModel;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -43,16 +43,16 @@ public class DB {
         }
     }
 
-    public static void saveCard(Context ctx, ShoppingCard card) {
+    public static void saveCard(Context ctx, Card card) {
         // lay len
         SharedPreferences prefs = ctx.getSharedPreferences(APP_SHARE, MODE_PRIVATE);
         String data = prefs.getString(SHOPPING_CARD, "");
 
         // them vo
         Gson gson = new Gson();
-        Type type = new TypeToken<ArrayList<ShoppingCard>>() {
+        Type type = new TypeToken<ArrayList<Card>>() {
         }.getType();
-        ArrayList<ShoppingCard> lastCards = gson.fromJson(data, type);
+        ArrayList<Card> lastCards = gson.fromJson(data, type);
         if (lastCards == null)
             lastCards = new ArrayList<>();
         boolean isExist = false;
@@ -72,22 +72,22 @@ public class DB {
         editor.apply();
     }
 
-    public static ArrayList<ShoppingCard> getAllCard(Context ctx) {
+    public static ArrayList<Card> getAllCard(Context ctx) {
         // lay len
         SharedPreferences prefs = ctx.getSharedPreferences(APP_SHARE, MODE_PRIVATE);
         String data = prefs.getString(SHOPPING_CARD, "");
         if (TextUtils.isEmpty(data)) {
-            return new ArrayList<ShoppingCard>();
+            return new ArrayList<Card>();
         } else {
             Gson gson = new Gson();
-            Type type = new TypeToken<ArrayList<ShoppingCard>>() {
+            Type type = new TypeToken<ArrayList<Card>>() {
             }.getType();
             return gson.fromJson(data, type);
         }
 
     }
 
-    public static ShoppingCard getCard(Context ctx, String id) {
+    public static Card getCard(Context ctx, String id) {
         // lay len
         SharedPreferences prefs = ctx.getSharedPreferences(APP_SHARE, MODE_PRIVATE);
         String data = prefs.getString(SHOPPING_CARD, "");
@@ -95,9 +95,9 @@ public class DB {
             return null;
         } else {
             Gson gson = new Gson();
-            Type type = new TypeToken<ArrayList<ShoppingCard>>() {
+            Type type = new TypeToken<ArrayList<Card>>() {
             }.getType();
-            ArrayList<ShoppingCard> lastCards = gson.fromJson(data, type);
+            ArrayList<Card> lastCards = gson.fromJson(data, type);
             for (int i = 0; i < lastCards.size(); i++) {
                 if (lastCards.get(i).getId().equalsIgnoreCase(id)) {
                     return lastCards.get(i);
@@ -117,9 +117,9 @@ public class DB {
             return;
         } else {
             Gson gson = new Gson();
-            Type type = new TypeToken<ArrayList<ShoppingCard>>() {
+            Type type = new TypeToken<ArrayList<Card>>() {
             }.getType();
-            ArrayList<ShoppingCard> lastCards = gson.fromJson(data, type);
+            ArrayList<Card> lastCards = gson.fromJson(data, type);
             for (int i = 0; i < lastCards.size(); i++) {
                 if (lastCards.get(i).getId().equalsIgnoreCase(id)) {
                     lastCards.remove(i);
