@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">giuakyApplication</string>
+    <string name="Main_momo">Hello Momo!!!</string>
+    <string name="Login_Username">User Name:</string>
+    <string name="Login_Password">Password: </string>
+    <string name="Login_btnlogin">Login</string>
+    <string name="product">Product name:</string>
+    <string name="price">Price:</string>
+    <string name="description">Description</string>
+    <string name="producer">Producer:</string>
+</resources>
